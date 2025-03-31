@@ -45,7 +45,7 @@ nav a:hover {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .container {
     background-color: white;
