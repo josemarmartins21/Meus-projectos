@@ -34,28 +34,35 @@ nav a {
     padding: 2px;
     border-radius: 5px;
 }
+div.container > a {
+    text-decoration: none;
+}
 nav a:hover {
     background-color: darkblue;
     text-decoration: underline;
     transition-duration: 0.9s;
 }
-main {
-    min-width: 300px;
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .container {
     background-color: white;
-    display: inline-block;
     width: 400px;
     height: 300px;
     padding: 20px;
-    margin: 10px 10px;
+    margin: 10px;
+}
+h3 {
+    padding: 10px;
+    text-align: justify;
 }
 section {
-    max-width: 1400px;
-    min-width: 300px;
-    margin: auto;
-    text-align: center;
     margin-bottom: 10px;
+}
+.block {
+    display: block;
 }
 
 h3 {
@@ -74,8 +81,9 @@ div#curiosidades {
     border-radius: 10px;
    
 }
-div h1 {
+div#curiosidades h1 {
     padding: 10px;
+    text-align: center;
 }
 p {
     text-align: justify;
@@ -85,6 +93,7 @@ p {
     
 }
 img#image {
+    display: block;
     margin: auto;
 }
 #bayern {

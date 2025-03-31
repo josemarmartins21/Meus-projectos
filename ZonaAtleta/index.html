@@ -10,40 +10,50 @@
 <body>
     <header><h1>ZonaAtleta</h1>
     <nav><a href="">Início</a>
-         <a href="#curiosidades">Curiosidades</a>
-         <a href="#">Contactos</a>
+         <a href="#curiosidades" >Curiosidades</a>
+         <a href="#" onclick="alert()">Contactos</a>
     </nav>
     </header>
     <main>
-            <section>
-              <div class="container">
-                <a href="#">
-                  <img src="imagens/benfica.jpg" alt="benfica">
-                  <h3>Benfica pretende vender jogador que só chegou hoje</h3>
-                </a>
-              </div>
-              <div class="container">
-                  <a href="#">
-                      <img src="imagens/atletico.jpg" alt="atletico">
-                      <h3>Já é conhecido o palco da final da Champions de 2027</h3>
+            <section >
+              <div class="flex">
+                <div class="container">
+                  <a href="#" class="block" onclick="alert()">
+                    <img src="imagens/benfica.jpg" alt="benfica">
+                    <h3>Benfica pretende vender jogador que só chegou hoje</h3>
                   </a>
+                </div>
+                <div class="container">
+                    <a href="#" class="block" onclick="alert()">
+                        <img src="imagens/atletico.jpg" alt="atletico">
+                        <h3>Já é conhecido o palco da final da Champions de 2027</h3>
+                    </a>
+                </div>
+                <div class="container">
+                  <a href="pags/benfica.html" class="bock" >
+                    <img src="imagens/juventus.jpg" alt="juventus-imagem">
+                    <h3>Reunião de crise na Juventus pode ditar futuro de Francisco Conceição</h3>
+                  </a>
+                </div>
               </div>
-              <div class="container">
-                <a href="pags/benfica.html">
-                  <img src="imagens/juventus.jpg" alt="juventus-imagem">
-                  <h3>Reunião de crise na Juventus pode ditar futuro de Francisco Conceição</h3>
-                </a>
-              </div>
-              <div class="container" id="bayern">
-                <a href="#">
-                  <img src="imagens/bayern.jpg" alt="bayern-img">
-                  <h3>Reunião de crise na Juventus pode ditar futuro de Francisco Conceição</h3>
-                </a>
+              <div class="flex wrap">
+                <div class="container">
+                  <a href="#" class="block" onclick="alert()">
+                    <img src="imagens/real-madrid-manchester-city.jpg" alt="benfica">
+                    <h3>Real Madrid volta a bater um Man City em mais uma final de Champions League</h3>
+                  </a>
+                </div>
+                <div class="container">
+                    <a href="#" class="block" onclick="alert()">
+                        <img src="imagens/cr7-2012.jpg" alt="atletico">
+                        <h3>CR7 de novo como melhor do mundo pela segunda vez consecutiva</h3>
+                    </a>
+                </div>
               </div>
               <div id="curiosidades">
                 <h1>Curiosidades</h1>
                 <picture>
-                  <source media="(max-width: 500px)" srcset="imagens/peleeusebio.jpg">
+                  <source media="(max-width: 650px)" srcset="imagens/peleeusebio.jpg">
                   <img src="imagens/peleeusebiomessironaldo1-1024x336.jpg" alt="lendas-e-atuais" id="image">
                 </picture>
                 <p>Pelé e Eusébio brilharam nos anos 60 e 70, uma era do futebol romântico, onde os gramados eram pesados, as chuteiras duras e os zagueiros podiam dar pancadas sem muitas consequências. Eles duelaram na Copa de 1966, onde Eusébio levou Portugal às semifinais, enquanto Pelé sofreu com a violência da Bulgária e de Portugal.
@@ -60,5 +70,6 @@
             </section>
     </main>
     <footer><p>&copy;Todos os direitos reservados a Josimar Martins</p></footer>
+    <script src="script/scipt.js"></script>
 </body>
 </html>
