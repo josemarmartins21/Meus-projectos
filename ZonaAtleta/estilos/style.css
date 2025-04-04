@@ -14,7 +14,10 @@
 body {
     background-color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
@@ -103,6 +106,7 @@ footer {
     background-color: black;
     color: white;
     padding: 10px;
+    
 }
 footer p {
     text-align: center;
